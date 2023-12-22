@@ -92,9 +92,9 @@ body{
     .cover figcaption{
         position: absolute;
         bottom: 48%;
-        left:26%;
+        left:20%;
         z-index: 1;
-        font-size: 50px;
+        font-size: 48px;
         color: rgb(21, 255, 130);
         font-weight: 900;
     }
@@ -181,9 +181,9 @@ body{
     .cover figcaption{
         position: absolute;
         bottom: 48%;
-        left:26%;
+        left:20%;
         z-index: 1;
-        font-size: 40px;
+        font-size: 37px;
         color: rgb(21, 255, 130);
         font-weight: 900;
     }
@@ -270,9 +270,9 @@ body{
     .cover figcaption{
         position: absolute;
         bottom: 48%;
-        left:26%;
+        left:20%;
         z-index: 1;
-        font-size: 25px;
+        font-size: 21px;
         color: rgb(21, 255, 130);
         font-weight: 900;
     }
