@@ -10,11 +10,6 @@ body{
     font-family: "Nunito", sans-serif;
 }
 
-.foodcollage{
-    width:95%;
-    position: relative;
-    left:2.5%;
-}
 
 @media only screen and (min-width:1024px){
     .logo img{
@@ -49,7 +44,7 @@ body{
          position:absolute;
          background-color: rgb(255, 255, 255);
          min-width: 190px;
-         z-index: 1;
+         z-index: 2;
      }
      
      .dropdown:hover .dropdown-content{
@@ -65,11 +60,11 @@ body{
      }
      
      .dropdown-content a:hover{
-         color: rgb(166, 209, 186);
+         color:rgb(21, 255, 130);
      }
      
      button{
-         background-color: rgb(166, 209, 186);
+         background-color: rgb(21, 255, 130);
          border-radius: 14px;
          font-size: 18px;
          padding: 4px 12px;
@@ -85,6 +80,24 @@ body{
          border: 1px solid black;
          transition: .5s;
      }
+    
+     .cover{
+        position: relative;
+    }
+    
+    .cover img{
+        width:100%;
+    }
+    
+    .cover figcaption{
+        position: absolute;
+        bottom: 48%;
+        left:26%;
+        z-index: 1;
+        font-size: 50px;
+        color: rgb(21, 255, 130);
+        font-weight: 900;
+    }
 }
 
 @media only screen and (min-width:768px) and (max-width:1023px){
@@ -120,6 +133,7 @@ body{
          position:absolute;
          background-color: rgb(237, 237, 237);
          min-width: 190px;
+         z-index: 2;
      }
      
      .dropdown:hover .dropdown-content{
@@ -135,11 +149,11 @@ body{
      }
      
      .dropdown-content a:hover{
-         color: rgb(166, 209, 186);
+         color: rgb(21, 255, 130);
      }
      
      button{
-         background-color: rgb(166, 209, 186);
+         background-color: rgb(21, 255, 130);
          border-radius: 14px;
          font-size: 18px;
          padding: 4px 12px;
@@ -155,6 +169,24 @@ body{
          border: 1px solid black;
          transition: .5s;
      }
+
+     .cover{
+        position: relative;
+    }
+    
+    .cover img{
+        width:100%;
+    }
+    
+    .cover figcaption{
+        position: absolute;
+        bottom: 48%;
+        left:26%;
+        z-index: 1;
+        font-size: 40px;
+        color: rgb(21, 255, 130);
+        font-weight: 900;
+    }
 }
 
 @media only screen and (max-width:767px){
@@ -191,6 +223,7 @@ body{
          position:absolute;
          background-color: rgb(237, 237, 237);
          min-width: 190px;
+         z-index: 2;
      }
      
      .dropdown:hover .dropdown-content{
@@ -206,11 +239,11 @@ body{
      }
      
      .dropdown-content a:hover{
-         color: rgb(166, 209, 186);
+         color: rgb(21, 255, 130);
      }
      
      button{
-         background-color: rgb(166, 209, 186);
+         background-color: rgb(21, 255, 130);
          border-radius: 14px;
          font-size: 18px;
          padding: 4px 3px;
@@ -225,4 +258,22 @@ body{
          border: 1px solid black;
          transition: .5s;
      }
+     
+     .cover{
+        position: relative;
+    }
+    
+    .cover img{
+        width:100%;
+    }
+    
+    .cover figcaption{
+        position: absolute;
+        bottom: 48%;
+        left:26%;
+        z-index: 1;
+        font-size: 25px;
+        color: rgb(21, 255, 130);
+        font-weight: 900;
+    }
 }
