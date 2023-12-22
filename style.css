@@ -43,6 +43,7 @@ li a:hover{
     display:none;
     position:absolute;
     background-color: rgb(237, 237, 237);
+    min-width: 190px;
 }
 
 .dropdown:hover .dropdown-content{
