@@ -18,16 +18,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
-}
-
-button{
-    background-color: rgb(166, 209, 186);
-    border-radius: 14px;
-    font-size: 18px;
-    padding: 4px 12px;
-    border: none;
-    cursor: pointer;
+    padding: 9px;
 }
 
 li{
@@ -67,4 +58,22 @@ li a:hover{
 
 .dropdown-content a:hover{
     color: rgb(166, 209, 186);
+}
+
+button{
+    background-color: rgb(166, 209, 186);
+    border-radius: 14px;
+    font-size: 18px;
+    padding: 4px 12px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-left: 20px;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: .5s;
 }
