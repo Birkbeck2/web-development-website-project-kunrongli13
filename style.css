@@ -214,6 +214,38 @@ li a:hover{
     padding: 5px;
 }
 
+.aboutcontainer{
+    background-color: rgb(238, 238, 238);
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.aboutimage{
+    width:50%;
+}
+
+.aboutimage img{
+    width:100%;
+}
+
+.abouttext{
+    padding: 10px;
+    width:50%;
+}
+
+.abouttext h1{
+    font-size: 31px;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px;
+}
+.abouttext p{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
 
 @media only screen and (min-width:768px) and (max-width:1023px){
     .mainpic{
@@ -246,6 +278,13 @@ li a:hover{
     .thirdcontainer img{
         width:50%;
         padding: 5px;
+    }
+
+    .abouttext h1{
+        font-size: 24px;
+    }
+    .abouttext p{
+        font-size: 12px;
     }
 }
 
@@ -314,4 +353,25 @@ li a:hover{
         width:100%;
         padding: 5px;
     }
+
+    .abouttext h1{
+        font-size: 24px;
+    }
+    .abouttext p{
+        font-size: 12px;
+    }
+
+    .aboutcontainer{
+        width:100%;
+        flex-direction: column;
+    }
+
+    .aboutimage{
+        width:100%;
+    }
+
+    .abouttext{
+        width:100%;
+    }
+
 }
