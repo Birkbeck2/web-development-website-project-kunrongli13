@@ -376,8 +376,7 @@ i{
     
     .mainpic img{
         position:relative;
-        right:100px;
-        width:200%;
+        width:100%;
     }
 
     .gallery{
