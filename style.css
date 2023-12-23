@@ -215,7 +215,7 @@ li a:hover{
 }
 
 .aboutcontainer{
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(251, 251, 251);
     padding: 10px;
     width: 70%;
     margin: auto;
@@ -246,6 +246,42 @@ li a:hover{
     color: rgb(0, 0, 0);
     font-size: 15px;
 }
+
+.formcontainer{
+    width:40%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+input[type=text], input[type=email], textarea{
+    width:100%;
+    padding: 14px;
+    border: 1px solid #a2a2a2;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.formcontainer button{
+    background-color:  rgb(21, 255, 130);
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .formcontainer button:hover{
+    color:black;
+    background-color:rgb(255, 255, 255);
+  }
 
 @media only screen and (min-width:768px) and (max-width:1023px){
     .mainpic{
@@ -285,6 +321,9 @@ li a:hover{
     }
     .abouttext p{
         font-size: 12px;
+    }
+    .formcontainer{
+        width:60%;
     }
 }
 
@@ -373,5 +412,7 @@ li a:hover{
     .abouttext{
         width:100%;
     }
-
+    .formcontainer{
+        width:80%;
+    }
 }
