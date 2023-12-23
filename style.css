@@ -127,6 +127,7 @@ li a:hover{
     background-color: rgb(21, 255, 130);
     border: 1px solid rgb(21, 255, 130);
     color: #ffffff;
+    transition: 0.5s;
 }
 
 .category img{
@@ -282,6 +283,26 @@ input[type=text], input[type=email], textarea{
     color:black;
     background-color:rgb(255, 255, 255);
   }
+
+  .footercontainer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 30px;
+  }
+
+i{
+    color: black;
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+.footercontainer button{
+    color:black;
+    background-color: #ffffff;
+}
 
 @media only screen and (min-width:768px) and (max-width:1023px){
     .mainpic{
