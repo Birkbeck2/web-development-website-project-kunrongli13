@@ -181,6 +181,8 @@ li a:hover{
     }
     
     .mainpic img{
+        position:relative;
+        right:100px;
         width:200%;
     }
 
