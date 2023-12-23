@@ -147,6 +147,37 @@ li a:hover{
     width: 24.9%;
 }
 
+.bigcontainer{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.firstcontainer{
+    padding: 4px;
+    width: 60%;
+}
+
+.firstcontainer img{
+    width: 100%;
+    object-fit: fill;
+}
+
+.secondcontainer{
+    padding: 4px;
+    width: 34%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.secondcontainer img{
+    padding: 0 4px 6px 4px;
+    width: 50%;
+    object-fit: fill;
+}
 
 @media only screen and (min-width:768px) and (max-width:1023px){
     .mainpic{
@@ -155,6 +186,19 @@ li a:hover{
 
     .gallery{
         width: 49.9%;
+    }
+    
+    .bigcontainer{
+        flex-direction: column;
+    }
+
+    .firstcontainer{
+        padding: 8.5px;
+        width:100%;
+    }
+
+    .secondcontainer{
+        width:100%;
     }
 }
 
@@ -189,4 +233,23 @@ li a:hover{
     .gallery{
         width: 100%;
     }
+
+    .bigcontainer{
+        flex-direction: column;
+    }
+
+    .firstcontainer{
+        padding: 8.5px;
+        width:100%;
+    }
+
+    .secondcontainer{
+        flex-direction: column;
+        width:100%;
+    }
+    
+    .secondcontainer img{
+        width:100%;
+    }
+
 }
