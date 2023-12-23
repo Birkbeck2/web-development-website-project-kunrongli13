@@ -353,6 +353,10 @@ i{
          display:block;
     }
 
+    nav{
+        justify-content:space-around;
+    }
+
     .navbtn{
         color: rgb(21, 255, 130);
         border:none;
