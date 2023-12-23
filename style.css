@@ -11,402 +11,180 @@ body{
 }
 
 .category a img:hover{
-    opacity: .5;
+    opacity: .7;
 }
 
-@media only screen and (min-width:1024px){
-    .logo img{
-        height: 50px;
-     }
-     
-     nav{
-         display: flex;
-         align-items: center;
-         justify-content: space-between;
-         padding: 9px;
-     }
-     
-     li{
-         display:inline;
-     }
-     
-     li a{
-         display: inline-block;
-         padding: 14px 30px;
-         text-decoration: none;
-         color:black;
-         font-size: 18px;
-     }
-     
-     li a:hover{
-         font-weight: 900;
-     }  
-     
-     .dropdown-content{
-         display:none;
-         position:absolute;
-         background-color: rgb(255, 255, 255);
-         min-width: 190px;
-         z-index: 2;
-     }
-     
-     .dropdown:hover .dropdown-content{
-         display: block;
-     }
-     
-     .dropdown{
-         display: inline-block;
-     }
-     
-     .dropdown a{
-         display: block;
-     }
-     
-     .dropdown-content a:hover{
-         color:rgb(21, 255, 130);
-     }
-     
-     .navbtn{
-         background-color: rgb(21, 255, 130);
-         border-radius: 14px;
-         font-size: 18px;
-         padding: 4px 12px;
-         border: 1px solid white;
-         cursor: pointer;
-         color: white;
-         margin-left: 20px;
-     }
-     
-     .navbtn:hover{
-         background-color: white;
-         color: black;
-         border: 1px solid black;
-         transition: .5s;
-     }
-    
-     .mainpic img{
-        width:100%;
-    }
-    
-    .mainpic{
-        position: relative;
-        text-align: center;
-        color: rgb(21, 255, 130);
-        font-size: 36px;
-        font-weight: bold;
-    }
-    
-    .maintitle{
-        position: absolute;
-        top:50%;
-        left:50%;
-        transform: translate(-50%, -50%);
-    }
-    
-    .picbtn{
-        position: absolute;
-        top: 65%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: #ffffff;
-        border-radius: 14px;
-        font-size: 18px;
-        padding: 4px 12px;
-        border: 1px solid white;
-        cursor: pointer;
-        margin-left: 20px;
-        color: black;
-    }
-    
-    .picbtn a{
-        text-decoration: none;
-        color: black;
-    }
-    
-    .picbtn:hover, .picbtn a:hover{
-        background-color: rgb(21, 255, 130);
-        border: 1px solid rgb(21, 255, 130);
-        color: #ffffff;
-    }
-
-    .category img{
-        width: 100%;
-        height: auto;
-    }
-    
-    .title{
-        padding: 5px;
-        text-align: center;
-    }
-    
-    .gallery{
-        padding: 0 10px;
-        float: left;
-        width: 24.9%;
-    }
-    
+.logo img{
+    height: 50px;
+ }
+ 
+ nav{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 9px;
+ }
+ 
+li{
+     display:inline;
+ }
+ 
+li a{
+     display: inline-block;
+     padding: 12px 30px;
+     text-decoration: none;
+     color:black;
+     font-size: 18px;
+     font-weight: 200;
 }
+ 
+li a:hover{
+     font-weight: 900;
+}  
+ 
+.dropdown-content{
+     display:none;
+     position:absolute;
+     background-color: rgb(255, 255, 255);
+     min-width: 190px;
+     z-index: 2;
+}
+ 
+.dropdown:hover .dropdown-content{
+     display: block;
+}
+ 
+.dropdown{
+     display: inline-block;
+}
+ 
+.dropdown a{
+     display: block;
+}
+ 
+.dropdown-content a:hover{
+     color:rgb(21, 255, 130);
+}
+ 
+.navbtn{
+     background-color: rgb(21, 255, 130);
+     border-radius: 14px;
+     font-size: 18px;
+     padding: 4px 12px;
+     border: 1px solid white;
+     cursor: pointer;
+     color: white;
+}
+ 
+.navbtn:hover{
+     background-color: white;
+     color: black;
+     border: 1px solid black;
+     transition: .5s;
+}
+
+
+.mainpic img{
+    width:100%;
+}
+
+.mainpic{
+    position: relative;
+    text-align: center;
+    color: rgb(21, 255, 130);
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.maintitle{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.picbtn{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border-radius: 14px;
+    font-size: 18px;
+    padding: 4px 12px;
+    border: 1px solid white;
+    cursor: pointer;
+    margin-left: 20px;
+    color: black;
+}
+
+.picbtn a{
+    text-decoration: none;
+    color: black;
+}
+
+.picbtn:hover, .picbtn a:hover{
+    background-color: rgb(21, 255, 130);
+    border: 1px solid rgb(21, 255, 130);
+    color: #ffffff;
+}
+
+.category img{
+    width: 100%;
+    height: auto;
+}
+
+.title{
+    padding: 5px 5px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.gallery{
+    padding: 5px 10px;
+    float: left;
+    width: 24.9%;
+}
+
 
 @media only screen and (min-width:768px) and (max-width:1023px){
-    .logo img{
-        height: 50px;
-     }
-     
-     nav{
-         display: flex;
-         align-items: center;
-         justify-content: space-between;
-         padding: 9px;
-     }
-     
-     li{
-         display:inline;
-     }
-     
-     li a{
-         display: inline-block;
-         padding: 14px 30px;
-         text-decoration: none;
-         color:black;
-         font-size: 18px;
-     }
-     
-     li a:hover{
-         font-weight: 900;
-     }  
-     
-     .dropdown-content{
-         display:none;
-         position:absolute;
-         background-color: rgb(237, 237, 237);
-         min-width: 190px;
-         z-index: 2;
-     }
-     
-     .dropdown:hover .dropdown-content{
-         display: block;
-     }
-     
-     .dropdown{
-         display: inline-block;
-     }
-     
-     .dropdown a{
-         display: block;
-     }
-     
-     .dropdown-content a:hover{
-         color: rgb(21, 255, 130);
-     }
-     
-     button{
-         background-color: rgb(21, 255, 130);
-         border-radius: 14px;
-         font-size: 18px;
-         padding: 4px 12px;
-         border: 1px solid white;
-         cursor: pointer;
-         color: white;
-         margin-left: 20px;
-     }
-     
-     button:hover{
-         background-color: white;
-         color: black;
-         border: 1px solid black;
-         transition: .5s;
-     }
-
-    .mainpic img{
-        width:100%;
-    }
-    
     .mainpic{
-        position: relative;
-        text-align: center;
-        color: rgb(21, 255, 130);
-        font-size: 30px;
-        font-weight: bold;
-    }
-    
-    .maintitle{
-        position: absolute;
-        top:50%;
-        left:50%;
-        transform: translate(-50%, -50%);
-    }
-    
-    .picbtn{
-        position: absolute;
-        top: 65%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: #ffffff;
-        border-radius: 14px;
-        font-size: 15px;
-        padding: 4px 12px;
-        border: 1px solid white;
-        cursor: pointer;
-        margin-left: 20px;
-        color: black;
-    }
-    
-    .picbtn a{
-        text-decoration: none;
-        color: black;
-    }
-    
-    .picbtn:hover, .picbtn a:hover{
-        background-color: rgb(21, 255, 130);
-        border: 1px solid rgb(21, 255, 130);
-        color: #ffffff;
+        font-size: 27px;
     }
 
-    .category img{
-        width: 100%;
-        height: auto;
-    }
-    
-    .title{
-        padding: 5px;
-        text-align: center;
-    }
-    
     .gallery{
-        padding: 0 10px;
-        float: left;
         width: 49.9%;
     }
 }
 
 @media only screen and (max-width:767px){
-    .logo img{
-        height: 50px;
-     }
-     
-     nav{
-         display: flex;
-         align-items: center;
-         justify-content:space-evenly;
-         padding: 9px;
-     }
-     
      li{
          display:block;
-     }
-     
-     li a{
-         display: inline-block;
-         padding: 14px 30px;
-         text-decoration: none;
-         color:black;
-         font-size: 18px;
-         align-items: center;
-     }
-     
-     li a:hover{
-         font-weight: 900;
-     }  
-     
-     .dropdown-content{
-         display:none;
-         position:absolute;
-         background-color: rgb(237, 237, 237);
-         min-width: 190px;
-         z-index: 2;
-     }
-     
-     .dropdown:hover .dropdown-content{
-         display: block;
-     }
-     
-     .dropdown{
-         display: inline-block;
-     }
-     
-     .dropdown a{
-         display: block;
-     }
-     
-     .dropdown-content a:hover{
-         color: rgb(21, 255, 130);
-     }
-     
-     button{
-         background-color: rgb(21, 255, 130);
-         border-radius: 14px;
-         font-size: 18px;
-         padding: 4px 3px;
-         border: 1px solid white;
-         cursor: pointer;
-         color: white;
-     }
-     
-     button:hover{
-         background-color: white;
-         color: black;
-         border: 1px solid black;
-         transition: .5s;
-    }
-     
-    .mainpic img{
-        width:100%;
-    }
-    
-    .mainpic{
-        position: relative;
-        text-align: center;
-        color: rgb(21, 255, 130);
-        font-size: 18px;
-        font-weight: bold;
-    }
-    
-    .maintitle{
-        position: absolute;
-        top:50%;
-        left:50%;
-        transform: translate(-50%, -50%);
-    }
-    
-    .picbtn{
-        position: absolute;
-        top: 65%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: #ffffff;
-        border-radius: 14px;
-        font-size: 10px;
-        padding: 4px 12px;
-        border: 1px solid white;
-        cursor: pointer;
-        margin-left: 20px;
-        color: black;
-    }
-    
-    .picbtn a{
-        text-decoration: none;
-        color: black;
-    }
-    
-    .picbtn:hover, .picbtn a:hover{
-        background-color: rgb(21, 255, 130);
-        border: 1px solid rgb(21, 255, 130);
-        color: #ffffff;
     }
 
-    .category img{
-        width: 100%;
-        height: auto;
+    .navbtn{
+        color: rgb(21, 255, 130);
+        border:none;
+        background-color: #ffffff;
+        padding: 0px;
+    }
+
+    .navbtn:hover{
+        background-color: white;
+        color: black;
+        border: none;
+    }
+
+    .mainpic{
+        font-size: 18px;
     }
     
-    .title{
-        padding: 5px;
-        text-align: center;
+    .mainpic img{
+        width:200%;
     }
-    
+
     .gallery{
-        padding: 0 10px;
-        float: left;
         width: 100%;
     }
 }
