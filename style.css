@@ -10,10 +10,6 @@ body{
     font-family: "Nunito", sans-serif;
 }
 
-.category a img:hover{
-    opacity: .7;
-}
-
 .logo img{
     height: 50px;
  }
@@ -133,6 +129,10 @@ li a:hover{
 .category img{
     width: 100%;
     height: auto;
+}
+
+.category a img:hover{
+    opacity: .7;
 }
 
 .title{
