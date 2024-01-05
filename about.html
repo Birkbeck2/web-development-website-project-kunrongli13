@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <title>About</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/72bafd2989.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <!--Insert a web logo-->
+                <div class="logo">
+                    <a href="index.html"><img src="img/logo/logo.png" alt="Website logo"></a>
+                </div>
+
+                <!--Create a navigation bar-->
+                <ul class="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                    <a href="food.html">Food</a>
+                        <div class="dropdown-content">
+                          <a href="food.html">All</a>
+                          <a href="carbohydrate.html">Carbonhydrate</a>
+                          <a href="protein.html">Protein</a>
+                          <a href="antioxidants.html">Antioxidants</a>
+                          <a href="unhealthyfat.html">Unhealthy Fat</a>
+                        </div>
+                    </li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html"><button class="navbtn">Contact</button></a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <!--Use flexbox to create the about page including an image and a paragraph-->
+            <div class="aboutcontainer">
+                <div class="aboutimage">
+                    <img src="img/antioxidants/about.jpg" alt="bio image">
+                </div>
+                <div class="abouttext">
+                    <h1> About Us</h1>
+                    <p>
+                        We believe that clean eating should be accessible, adventurous, and downright delicious. Our philosophy is that we function how we fuel.Founded in 2023, Know Food Better pairs art and science with creative and conscious, packing flavor into every original recipe. On the heels of a personal health scare, the founder envisioned Know Food Better as the place to quickly customize a wholesome meal without compromising taste or the quality of its unique ingredients. We simply putting convenience and benefit at the heart of clean eating.
+                    </p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <!--Create the website footer with 3 icons-->
+            <div class="footercontainer">
+                <a href="contact.html"><button class="navbtn">Email</button></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+        </footer>
+    </body>
+</html>

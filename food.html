@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <title>Food</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/72bafd2989.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <!--Insert a web logo-->
+                <div class="logo">
+                    <a href="index.html"><img src="img/logo/logo.png" alt="Website logo"></a>
+                </div>
+
+                <!--Create a navigation bar-->
+                <ul class="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                    <a href="food.html">Food</a>
+                        <div class="dropdown-content">
+                          <a href="food.html">All</a>
+                          <a href="carbohydrate.html">Carbonhydrate</a>
+                          <a href="protein.html">Protein</a>
+                          <a href="antioxidants.html">Antioxidants</a>
+                          <a href="Unhealthyfood.html">Unhealthy Fat</a>
+                        </div>
+                    </li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html"><button class="navbtn">Contact</button></a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <!--Create four categories cover images and allow users to click image-->
+            <h1 class="pagetitle">Food Ingredients</h1>
+            <div class="gallery">
+                <div class="category">
+                    <a href="carbohydrate.html">
+                        <img src="img/carbonhydrate/cover.jpg" width="600" height="400" alt="carbohydrate cover">
+                    </a>
+                    <div class="title">Carbohydrate</div>
+                </div>
+            </div>
+
+            <div class="gallery">
+                <div class="category">
+                    <a href="protein.html">
+                        <img src="img/protein/cover.jpg" width="600" height="400" alt="protein cover">
+                    </a>
+                    <div class="title">Protein</div>
+                </div>
+            </div>
+
+            <div class="gallery">
+                <div class="category">
+                    <a href="antioxidants.html">
+                        <img src="img/antioxidants/cover.jpg" width="600" height="400" alt="antioxidants cover">
+                    </a>
+                    <div class="title">Antioxidants</div>
+                </div>
+            </div>
+
+            <div class="gallery">
+                <div class="category">
+                    <a href="unhealthyfat.html">
+                        <img src="img/unhealthyfood/cover.jpg" width="600" height="400" alt="Unhealthy Food Cover">
+                    </a>
+                    <div class="title">Unhealthy Fat</div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <!--Create the website footer with 3 icons-->
+            <div class="footercontainer">
+                <a href="contact.html"><button class="navbtn">Email</button></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+        </footer>
+    </body>
+</html>

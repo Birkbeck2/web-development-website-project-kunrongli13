@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Nunito", sans-serif;
+}
+
+.logo img{
+    height: 50px;
+ }
+ 
+ nav{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 9px;
+ }
+ 
+ /* make navigation display horizontally */
+li{
+     display:inline;
+ }
+ 
+ /* set up for dropdown */
+li a{
+     display: inline-block;
+     padding: 12px 30px;
+     text-decoration: none;
+     color:black;
+     font-size: 18px;
+     font-weight: 200;
+}
+ 
+/* navigation bar hover effect */
+li a:hover{
+     font-weight: 900;
+}  
+ 
+/* style dropdown */
+.dropdown-content{
+     display:none;
+     position:absolute;
+     background-color: rgb(255, 255, 255);
+     min-width: 190px;
+     z-index: 2;
+}
+ 
+.dropdown:hover .dropdown-content{
+     display: block;
+}
+ 
+.dropdown{
+     display: inline-block;
+}
+ 
+.dropdown a{
+     display: block;
+}
+ 
+.dropdown-content a:hover{
+     color:rgb(21, 255, 130);
+}
+ 
+/* style the buton */
+.navbtn{
+     background-color: rgb(21, 255, 130);
+     border-radius: 14px;
+     font-size: 18px;
+     padding: 4px 12px;
+     border: 1px solid white;
+     cursor: pointer;
+     color: white;
+}
+ 
+.navbtn:hover{
+     background-color: white;
+     color: black;
+     border: 1px solid black;
+     transition: .5s;
+}
+
+
+/* style the landing page image, title and button  */
+.mainpic img{
+    width:100%;
+}
+
+.mainpic{
+    position: relative;
+    text-align: center;
+    color: rgb(21, 255, 130);
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.maintitle{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.picbtn{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border-radius: 14px;
+    font-size: 18px;
+    padding: 4px 12px;
+    border: 1px solid white;
+    cursor: pointer;
+    margin-left: 20px;
+    color: black;
+}
+
+.picbtn a{
+    text-decoration: none;
+    color: black;
+}
+
+.picbtn:hover, .picbtn a:hover{
+    background-color: rgb(21, 255, 130);
+    border: 1px solid rgb(21, 255, 130);
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+/* style the food page image */
+.category img{
+    width: 100%;
+    height: auto;
+}
+
+.category a img:hover{
+    opacity: .7;
+}
+
+.title{
+    padding: 5px 5px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 800;
+}
+
+/* make image float to the left */
+.gallery{
+    padding: 5px 10px;
+    float: left;
+    width: 24.9%;
+}
+
+/* style the flexbox */
+.bigcontainer{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.firstcontainer{
+    padding: 5px;
+    width: 60%;
+}
+
+.firstcontainer img{
+    width: 100%;
+    height:100%;
+    object-fit: fill;
+}
+
+.secondcontainer{
+    padding: 2px;
+    width: 34%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.secondcontainer img{
+    padding: 3px;
+    width: 50%;
+    object-fit: fill;
+}
+
+/* style the grid container */
+.gridcontainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.gridcontainer img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    padding: 4px;
+}
+
+.item1{
+    grid-row: 2/4;
+}
+
+.item2{
+    grid-row: 1/3;
+}
+
+/* style the second flexbox on the antioxidants and the unhealthy fat page */
+.thirdcontainer{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.thirdcontainer img{
+    width:25%;
+    padding: 5px;
+}
+
+/* style the about page flexbox */
+.aboutcontainer{
+    background-color: rgb(251, 251, 251);
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.aboutimage{
+    width:50%;
+}
+
+.aboutimage img{
+    width:100%;
+}
+
+.abouttext{
+    padding: 40px;
+    width:50%;
+}
+
+.abouttext h1{
+    font-size: 31px;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px;
+}
+.abouttext p{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+/* style the form */
+.formcontainer{
+    width:40%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+input[type=text], input[type=email], textarea{
+    width:100%;
+    padding: 14px;
+    border: 1px solid #a2a2a2;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.formcontainer button{
+    background-color:  rgb(21, 255, 130);
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .formcontainer button:hover{
+    color:black;
+    background-color:rgb(255, 255, 255);
+  }
+
+  .footercontainer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 30px;
+  }
+
+i{
+    color: black;
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+/* style the footer */
+.footercontainer button{
+    color:black;
+    background-color: #ffffff;
+}
+
+.pagetitle{
+    font-size: 25px;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px){
+    .mainpic{
+        font-size: 27px;
+    }
+
+    .gallery{
+        width: 49.9%;
+    }
+    
+    .bigcontainer{
+        flex-direction: column;
+    }
+
+    .firstcontainer{
+        padding: 8.5px;
+        width:100%;
+    }
+
+    .secondcontainer{
+        width:100%;
+    }
+
+    .gridcontainer{
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 10px;
+    }
+
+    .thirdcontainer img{
+        width:50%;
+        padding: 5px;
+    }
+
+    .abouttext h1{
+        font-size: 24px;
+    }
+    .abouttext p{
+        font-size: 12px;
+    }
+    .formcontainer{
+        width:60%;
+    }
+}
+
+@media only screen and (max-width:767px){
+     li{
+         display:block;
+    }
+
+    nav{
+        justify-content:space-around;
+    }
+
+    .navbtn{
+        color: rgb(21, 255, 130);
+        border:none;
+        background-color: #ffffff;
+        padding: 0px;
+    }
+
+    .navbtn:hover{
+        background-color: white;
+        color: black;
+        border: none;
+    }
+
+    .mainpic{
+        font-size: 18px;
+    }
+    
+    .mainpic img{
+        position:relative;
+        width:100%;
+    }
+
+    .gallery{
+        width: 100%;
+    }
+
+    .firstcontainer{
+        padding: 8.5px;
+        width:100%;
+    }
+
+    .secondcontainer{
+        flex-direction: column;
+        width:100%;
+    }
+    
+    .secondcontainer img{
+        width:100%;
+    }
+
+    .gridcontainer{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto auto auto;
+        padding: 10px;
+    }
+   
+    .item1{
+        grid-row:auto;
+    }
+    
+    .item2{
+        grid-row:auto;
+    }
+
+    .thirdcontainer img{
+        width:100%;
+        padding: 5px;
+    }
+
+    .abouttext h1{
+        font-size: 24px;
+    }
+    .abouttext p{
+        font-size: 12px;
+    }
+
+    .aboutcontainer{
+        width:100%;
+        flex-direction: column;
+    }
+
+    .aboutimage{
+        width:100%;
+    }
+
+    .abouttext{
+        width:100%;
+    }
+    .formcontainer{
+        width:80%;
+    }
+}
